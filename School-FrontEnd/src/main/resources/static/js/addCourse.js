@@ -54,6 +54,16 @@ function onLoad() {
 }
 
 function onRegisterClick() {
+	
+	if (document.getElementById("studentId").value == "Choose Student") {
+		alert("Please select Student");
+		return;
+	}
+	if (document.getElementById("courseId").value == "Choose Course") {
+		alert("Please select Course");
+		return;
+	}
+	
 	if (confirm("Are you sure want to proceed?")) {
 		$.ajax({
 			type : "POST",
