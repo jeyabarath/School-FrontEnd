@@ -26,3 +26,25 @@ Convert as Maven Project as below after import from Git in Eclipse
 Run the application from Eclipse
 
 ![image](https://user-images.githubusercontent.com/16117201/224609346-845250b6-0cc1-4723-b409-9ba747c8ee69.png)
+
+# Site
+
+Home page / Students List
+
+![image](https://user-images.githubusercontent.com/16117201/224610696-4abc41c6-1b1b-48b7-9541-7c5928ca957c.png)
+
+Add Student
+
+![image](https://user-images.githubusercontent.com/16117201/224610781-9608aa26-cab5-4241-8fba-573f1589e935.png)
+
+Student (with Update and Delete)
+
+![image](https://user-images.githubusercontent.com/16117201/224610917-98303fa6-a347-467b-888a-d394d05ffb07.png)
+
+Students List by Course
+
+![image](https://user-images.githubusercontent.com/16117201/224611068-ee37b428-942d-40d3-98b6-4135bd2cc58e.png)
+
+Course Student Register
+
+![image](https://user-images.githubusercontent.com/16117201/224611157-93d49fe1-8a08-4dab-b10a-1562dba43345.png)
