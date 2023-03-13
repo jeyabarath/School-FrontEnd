@@ -1,6 +1,8 @@
 # School-FrontEnd
 
-Pre-Requisites -> Eclipse with JDK 1.8, Maven and Git
+Pre-Requisites -> Eclipse with JDK 1.8, Maven, Git
+
+[School-BackEnd](https://github.com/jeyabarath/School-BackEnd) needed to be setup and running in another Eclipse Workspace 
 
 
 Import the project from Git into Eclipse, click Next all way along
