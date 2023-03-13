@@ -27,6 +27,9 @@ Run the application from Eclipse
 
 ![image](https://user-images.githubusercontent.com/16117201/224609346-845250b6-0cc1-4723-b409-9ba747c8ee69.png)
 
+**Open browser and go to http://localhost:8082/ to view the page**
+
+
 # Site
 
 Home page / Students List
