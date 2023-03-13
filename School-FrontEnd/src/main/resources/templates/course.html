@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8" />
+<title>Students List by Course</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet"
+	href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+<script
+	src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="/js/general.js"></script>
+<script src="/js/course.js"></script>
+
+</head>
+
+<body onload="onLoad();">
+	<h1 class="text-center">Students List by Course</h1>
+
+	<div class="text-center">
+		<div class="text-center">
+			<a href="addCourse" class="btn btn-info" role="button">Register
+				Course</a>
+		</div>
+		<br>
+		<div>
+			<label>Course ID</label> <select id=courseId name=courseId>
+			</select> <input type="submit" value="Search" onclick="onSearchClick();">
+		</div>
+		<div class="form-action-buttons">
+			<input type="submit" value="Home" onclick="onHomeClick();">
+		</div>
+
+		<table id="studentTable" class="display">
+
+			<!-- Header Table -->
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>Name</th>
+					<th>Date of Birth</th>
+				</tr>
+			</thead>
+		</table>
+	</div>
+</body>
+</html>

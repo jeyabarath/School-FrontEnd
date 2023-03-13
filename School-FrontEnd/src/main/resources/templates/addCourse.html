@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8" />
+<title>Register Course</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="/js/general.js"></script>
+<script src="/js/addCourse.js"></script>
+
+</head>
+
+<body onload="onLoad();">
+
+	<div class="text-center">
+		<h1>Register Course</h1>
+	</div>
+
+	<div class="form-group">
+		<label>Student ID</label> <select id=studentId name=studentId
+			class="form-control">
+			<option>Choose Student ID</option>
+		</select>
+	</div>
+	<div class="form-group">
+		<label>Course ID</label> <select id=courseId name=courseId
+			class="form-control">
+			<option>Choose Course ID</option>
+		</select>
+	</div>
+	<br>
+	<div class="form-action-buttons">
+		<input class="btn btn-primary" type="submit" value="Register"
+			onclick="onRegisterClick();"> <input class="btn btn-primary"
+			type="submit" value="Back" onclick="onBackClick();"> <input
+			class="btn btn-primary" type="submit" value="Home"
+			onclick="onHomeClick();">
+	</div>
+
+
+
+
+</body>
+</html>
